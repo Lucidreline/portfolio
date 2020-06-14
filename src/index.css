@@ -10,6 +10,8 @@ html {
 
 body {
   font-family: sans-serif;
+  background-color: #212121;
+  color: white;
 }
 
 h1 {
@@ -34,6 +36,9 @@ h5 {
   font-size: 2.8rem;
 }
 a {
-  color: black;
+  color: white;
   text-decoration: none;
+}
+li {
+  list-style: none;
 }

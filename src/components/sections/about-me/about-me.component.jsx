@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './about-me.styles.scss';
+
 const AboutMe = () => {
   return (
     <section id='about-me'>

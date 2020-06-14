@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './projects.styles.scss';
+
 // data
 import ProjectsData from './projects.data';
 

@@ -1,0 +1,32 @@
+// Puts links on left screen when screen is wide
+@media only screen and (min-width: 676px) {
+  #side-links {
+    position: fixed;
+    top: 70%;
+    left: 0;
+    transform: translateY(-50%);
+
+    ul {
+      display: flex;
+      flex-direction: column;
+
+      li {
+        margin: 0.45rem 1rem;
+      }
+    }
+  }
+}
+
+// puts icons under hero when screen is small
+@media only screen and (max-width: 675px) {
+  #side-links {
+    position: relative;
+    width: 50%;
+    margin: 2rem auto;
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}

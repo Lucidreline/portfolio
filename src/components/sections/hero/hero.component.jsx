@@ -1,5 +1,10 @@
 import React from 'react';
 
+import './hero.styles.scss';
+
+// components
+import SideLinks from '../../side-links/side-links.component';
+
 const Hero = () => {
   return (
     <section id='hero'>
@@ -10,6 +15,7 @@ const Hero = () => {
           I am a web developer based in Los Angeles, CA. I develop and deploy
           full stack applications for the web.
         </p>
+        <SideLinks />
       </div>
     </section>
   );

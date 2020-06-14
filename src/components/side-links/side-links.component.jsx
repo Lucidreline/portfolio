@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './side-links.styles.scss';
+
 const SideLinks = () => {
   return (
     <div id='side-links'>

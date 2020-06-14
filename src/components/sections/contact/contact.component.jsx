@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './contact.styles.scss';
+
 import handleSubmit from './handleSubmit.utils';
 
 const Contact = () => {
