@@ -15,6 +15,7 @@ class Projects extends Component {
   render() {
     return (
       <section id='projects'>
+        <h1>Featured Projects</h1>
         {this.state.projects.map((project, index) => (
           <ProjectDisplay key={index} {...project} />
         ))}

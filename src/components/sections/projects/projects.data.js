@@ -6,7 +6,8 @@ const ProjectsData = {
       github: 'https://github.com/Lucidreline/sahx-shop',
       photo: '#',
       technologies: 'React, Firebase',
-      description: 'A fake online store that sells a variety of socks.',
+      description:
+        'A fictional online store that sells a variety of socks. You can browse around the socks by their category and even sign in using your google account.',
     },
     {
       name: "What's My Grade",

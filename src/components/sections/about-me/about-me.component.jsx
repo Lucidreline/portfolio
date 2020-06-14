@@ -15,6 +15,18 @@ const AboutMe = () => {
           was able to build a beautiful user interface for my apps, it became
           impossible for me to leave web development.
         </p>
+        <div>
+          <p>I have been using these technologies recently:</p>
+          <ul>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node Js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>Firebase</li>
+            <li>Git</li>
+          </ul>
+        </div>
       </div>
     </section>
   );

@@ -1,13 +1,13 @@
 import React from 'react';
 
-function ProjectDisplay({
+const ProjectDisplay = ({
   name,
   url,
   github,
   photo,
   technologies,
   description,
-}) {
+}) => {
   return (
     <div className='project-display'>
       <h1>{name}</h1>
@@ -30,6 +30,6 @@ function ProjectDisplay({
       </div>
     </div>
   );
-}
+};
 
 export default ProjectDisplay;

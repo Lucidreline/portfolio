@@ -2,7 +2,7 @@ import React from 'react';
 
 import './header.styles.scss';
 
-function Header() {
+const Header = () => {
   return (
     <nav id='nav-bar'>
       <div className='logo-container'>
@@ -15,6 +15,6 @@ function Header() {
       </div>
     </nav>
   );
-}
+};
 
 export default Header;
