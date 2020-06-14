@@ -4,6 +4,7 @@ import React from 'react';
 import Hero from '../../sections/hero/hero.component';
 import AboutMe from '../../sections/about-me/about-me.component';
 import Technologies from '../../sections/technologies/technologies.component';
+import Projects from '../../sections/projects/projects.component';
 
 const LandingPage = () => {
   return (
@@ -11,6 +12,7 @@ const LandingPage = () => {
       <Hero />
       <AboutMe />
       <Technologies />
+      <Projects />
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+// data
 import { technologiesData } from './technologies.data';
 
 // components
@@ -14,7 +15,7 @@ class Technologies extends Component {
 
   render() {
     return (
-      <section id='technology'>
+      <section id='technologies'>
         {this.state.technologies.map((techs, index) => (
           <TechnologiesDisplay key={index} {...techs} />
         ))}
