@@ -6,27 +6,90 @@ const AboutMe = () => {
   return (
     <section id='about-me'>
       <div className='content'>
-        <h1>A Little About Me</h1>
-        <p>
-          Hello! I am a Computer Science student based in Los Angeles, CA. I
-          wrote my first line of code right after graduating high school in 2018
-          and immediately grew a passion for it.
-        </p>
-        <p>
-          I began my web development journey in late 2018. After seeing how I
-          was able to build a beautiful user interface for my apps, it became
-          impossible for me to leave web development.
-        </p>
-        <div>
-          <p>I have been using these technologies recently:</p>
-          <ul>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node Js</li>
-            <li>Express</li>
-            <li>MongoDB</li>
-            <li>Firebase</li>
-            <li>Git</li>
+        <h2 className='title'>About Me</h2>
+        <div className='content'>
+          <p>
+            I wrote my first line of code right after I graduated high school in
+            2018 and immediately grew a passion for it. That lead me to become a
+            computer science major at{' '}
+            <a
+              className='clickable-color color-always'
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://www.csudh.edu/'
+            >
+              CSU Dominguez Hills
+            </a>
+            .
+          </p>
+          <p>
+            In the last couple of months of 2018, I began my web development
+            journey. After seeing how I was able to build a beautiful user
+            interface for my apps, it became impossible for me to ever leave web
+            development.
+          </p>
+          <p>Here are some technologies I have been playing with recently:</p>
+          <ul className='technologies'>
+            <li>
+              <a
+                className='clickable-color color-always'
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://reactjs.org/'
+              >
+                React
+              </a>
+            </li>
+            <li>
+              <a
+                className='clickable-color color-always'
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://nodejs.org/en/about/'
+              >
+                Node.js
+              </a>
+            </li>
+            <li>
+              <a
+                className='clickable-color color-always'
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://expressjs.com/'
+              >
+                Express
+              </a>
+            </li>
+            <li>
+              <a
+                className='clickable-color color-always'
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://www.mongodb.com/'
+              >
+                MongoDB
+              </a>
+            </li>
+            <li>
+              <a
+                className='clickable-color color-always'
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://firebase.google.com/'
+              >
+                Firebase
+              </a>
+            </li>
+            <li>
+              <a
+                className='clickable-color color-always'
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://git-scm.com/'
+              >
+                Git
+              </a>
+            </li>
           </ul>
         </div>
       </div>

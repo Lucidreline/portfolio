@@ -22,7 +22,7 @@ button,
 label,
 input,
 p {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 h2 {
   font-size: 4.5rem;
@@ -41,13 +41,4 @@ a {
 }
 li {
   list-style: none;
-}
-
-@media only screen and (max-width: 1px) {
-  body {
-    background-color: violet;
-  }
-  html {
-    font-size: 7px;
-  }
 }
