@@ -12,7 +12,7 @@ const SideLinks = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <i class='fab fa-github'></i>
+            <i className='fab fa-github clickable-color color-hover'></i>
           </a>
         </li>
         <li>
@@ -21,7 +21,7 @@ const SideLinks = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <i class='fab fa-linkedin'></i>
+            <i className='fab fa-linkedin clickable-color color-hover'></i>
           </a>
         </li>
         <li>
@@ -30,7 +30,7 @@ const SideLinks = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <i class='far fa-file'></i>
+            <i className='far fa-file clickable-color color-hover'></i>
           </a>
         </li>
       </ul>

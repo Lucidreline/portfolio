@@ -2,3 +2,37 @@
   width: 75%;
   margin: auto;
 }
+
+.clickable-color {
+  transition-duration: 0.3s;
+}
+.clickable-color.color-always {
+  color: #00e5ff;
+}
+.clickable-color.color-hover:hover {
+  color: #00e5ff;
+}
+
+@media only screen and (max-width: 575px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 9px;
+  }
+}

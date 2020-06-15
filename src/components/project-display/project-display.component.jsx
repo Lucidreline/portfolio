@@ -22,10 +22,10 @@ const ProjectDisplay = ({
 
       <div className='links'>
         <a rel='noopener noreferrer' target='_blank' href={github}>
-          <i class='fab fa-github'></i>
+          <i className='fab fa-github'></i>
         </a>
         <a rel='noopener noreferrer' target='_blank' href={url}>
-          <i class='fas fa-external-link-alt'></i>
+          <i className='fas fa-external-link-alt'></i>
         </a>
       </div>
     </div>

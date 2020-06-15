@@ -1,7 +1,38 @@
 #nav-bar {
   height: 10vh;
-  .logo {
-    font-weight: normal;
-    font-family: 'Black Ops One', cursive;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+
+  .logo-container {
+    width: 10%;
+
+    .logo {
+      font-weight: normal;
+      font-family: 'Black Ops One', cursive;
+      font-size: 3rem;
+
+      &:hover {
+        scale: 1.05;
+      }
+    }
+  }
+
+  .links-container {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+
+    a {
+      margin-left: 3rem;
+      font-size: 1.3rem;
+
+      &:hover {
+        scale: 1.05;
+      }
+    }
   }
 }
