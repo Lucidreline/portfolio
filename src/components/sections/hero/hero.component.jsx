@@ -24,7 +24,7 @@ const Hero = () => {
           . I have a passion for developing and deploying full stack
           applications for the web.
         </p>
-        <SideLinks />
+        <SideLinks className='side-links' />
       </div>
     </section>
   );
