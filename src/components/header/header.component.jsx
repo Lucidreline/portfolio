@@ -9,9 +9,15 @@ const Header = () => {
         <h1 className='logo'>M</h1>
       </div>
       <div className='links-container'>
-        <a href='#about-me'>About</a>
-        <a href='#projects'>Projects</a>
-        <a href='#contact'>Contact</a>
+        <a className='clickable-color color-hover' href='#about-me'>
+          About
+        </a>
+        <a className='clickable-color color-hover' href='#projects'>
+          Projects
+        </a>
+        <a className='clickable-color color-hover' href='#contact'>
+          Contact
+        </a>
       </div>
     </nav>
   );
