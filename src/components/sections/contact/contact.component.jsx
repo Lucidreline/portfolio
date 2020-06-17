@@ -18,7 +18,7 @@ const Contact = () => {
           <input placeholder='Subject' type='text' name='subject' />
           <textarea name='message' placeholder='Message'></textarea>
         </form>
-        <i class='far fa-paper-plane'></i>
+        <i className='far fa-paper-plane'></i>
       </div>
     </section>
   );

@@ -13,7 +13,7 @@ const ProjectDisplay = ({
   return (
     <div className='project-display'>
       <a
-        className='image-anchor clickable-color color-hover'
+        className='image-anchor clickable-color color-hover-shadow'
         rel='noopener noreferrer'
         target='_blank'
         href={url}
@@ -24,7 +24,14 @@ const ProjectDisplay = ({
         ></div>
       </a>
       <div className='content'>
-        <h1>{name}</h1>
+        <a
+          className='clickable-color color-hover'
+          rel='noopener noreferrer'
+          target='_blank'
+          href={url}
+        >
+          <h1>{name}</h1>
+        </a>
 
         <div className='description-container'>
           <p>{description}</p>
