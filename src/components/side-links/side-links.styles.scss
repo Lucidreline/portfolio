@@ -12,6 +12,8 @@
 
       li {
         margin: 0.45rem 1rem;
+        animation: shiftRight 1.5s;
+        animation-fill-mode: backwards;
       }
     }
   }
@@ -25,8 +27,22 @@
     margin: 2rem auto;
 
     ul {
+      animation: shiftRight 3s;
+      animation-fill-mode: backwards;
       display: flex;
       justify-content: space-around;
     }
+  }
+}
+
+@keyframes shiftRight {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

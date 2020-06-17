@@ -18,10 +18,12 @@ class Projects extends Component {
     return (
       <section id='projects'>
         <div className='content'>
-          <h1>Featured Projects</h1>
-          {this.state.projects.map((project, index) => (
-            <ProjectDisplay key={index} {...project} />
-          ))}
+          <h1 className='title'>Featured Projects</h1>
+          <div className='project-displays'>
+            {this.state.projects.map((project, index) => (
+              <ProjectDisplay key={index} {...project} />
+            ))}
+          </div>
         </div>
       </section>
     );

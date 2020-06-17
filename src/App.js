@@ -19,7 +19,9 @@ function App() {
     <div className='App'>
       <div id='margin-container'>
         <Header />
-        <Hero />
+        <div data-aos='fade-right'>
+          <Hero />
+        </div>
         <div data-aos='fade-up-right'>
           <AboutMe />
         </div>

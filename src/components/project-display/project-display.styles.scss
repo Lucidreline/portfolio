@@ -1,0 +1,51 @@
+.project-display {
+  display: flex;
+  width: 100%;
+  margin-bottom: 3rem;
+
+  .content {
+    width: 40%;
+    margin-left: 1rem;
+    text-align: right;
+
+    h1 {
+      font-size: 1.7rem;
+      margin-bottom: 2rem;
+    }
+
+    .description-container {
+      margin-left: -8rem;
+      margin-bottom: 2rem;
+      background-color: #363636;
+      box-shadow: rgba(0, 0, 0, 0.7) -2px 2px 2px;
+      padding: 1rem;
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .technologies {
+      font-size: 1rem;
+    }
+
+    .links {
+      margin-top: 2rem;
+      width: 5rem;
+      margin-left: auto;
+
+      display: flex;
+      justify-content: space-around;
+      font-size: 1.3rem;
+    }
+  }
+
+  .image-anchor {
+    width: 100%;
+    .photo {
+      margin: auto;
+      background-position: center;
+      background-size: cover;
+      height: 20rem;
+    }
+  }
+}
