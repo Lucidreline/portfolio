@@ -26,6 +26,13 @@ const SideLinks = () => {
         </li>
         <li>
           <a
+            href='mailto:mcas@manuelc.me'
+          >
+            <i class="far fa-envelope"></i>
+          </a>
+        </li>
+        <li>
+          <a
             href='https://nc.manuelc.me/index.php/s/PJNNcRw56j6XBfw'
             target='_blank'
             rel='noopener noreferrer'
