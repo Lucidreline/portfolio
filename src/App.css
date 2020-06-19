@@ -17,13 +17,18 @@
   box-shadow: #00e5ff 5px 5px;
 }
 
+#about-me,
+#projects {
+  margin-bottom: 12.5rem;
+}
+
+#contact {
+  margin-bottom: 5rem;
+}
+
 @media only screen and (max-height: 360px) {
   #nav-bar {
     margin-top: 1rem;
-  }
-  #about-me,
-  #projects {
-    margin-top: 5rem;
   }
 }
 

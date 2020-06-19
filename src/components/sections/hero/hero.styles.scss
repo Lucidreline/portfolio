@@ -1,8 +1,9 @@
 #hero {
-  min-height: 90vh;
+  min-height: 80vh;
   display: flex;
   justify-content: right;
   align-items: center;
+  margin-bottom: 10vh;
 
   .content {
     width: 100%;
@@ -18,17 +19,5 @@
     .bio {
       width: 60%;
     }
-  }
-}
-
-@media only screen and (max-width: 830px) {
-  #hero .content .bio {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-height: 360px) {
-  #hero .name-and-intro {
-    height: 90vh;
   }
 }
