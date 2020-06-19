@@ -2,7 +2,7 @@ const ProjectsData = {
   projects: [
     {
       name: 'SAHX Shop',
-      url: '#',
+      url: 'https://sahx.manuelc.me/',
       github: 'https://github.com/Lucidreline/sahx-shop',
       photo:
         'https://res.cloudinary.com/dglxjd018/image/upload/q_10/v1592364843/Portfolio/screenshots/SAHX_rjvo0u.png',
