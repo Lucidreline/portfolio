@@ -8,7 +8,7 @@ const AboutMe = () => {
       <div className='content'>
         <h2 className='section-title'>About Me</h2>
         <div className='content'>
-          <p>
+          <p className='marg-bottom'>
             I wrote my first line of code right after I graduated high school in
             2018 and immediately grew a passion for it. That lead me to become a
             computer science major at{' '}
@@ -22,13 +22,15 @@ const AboutMe = () => {
             </a>
             .
           </p>
-          <p>
+          <p className='marg-bottom'>
             In the last couple of months of 2018, I began my web development
             journey. After seeing how I was able to build a beautiful user
             interface for my apps, it became impossible for me to ever leave web
             development.
           </p>
-          <p>Here are some technologies I have been playing with recently:</p>
+          <p className='marg-bottom'>
+            Here are some technologies I have been playing with recently:
+          </p>
           <ul className='technologies'>
             <li>
               <a

@@ -10,7 +10,7 @@
   color: #00e5ff;
 }
 .clickable-color.color-hover:hover {
-  color: #00e5ff;
+  color: #00e5ff !important;
 }
 
 .clickable-color.color-hover-shadow:hover {

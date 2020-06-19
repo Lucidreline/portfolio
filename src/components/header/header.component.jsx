@@ -2,6 +2,17 @@ import React from 'react';
 
 import './header.styles.scss';
 
+// smooth scroll
+import jump from 'jump.js';
+
+const handleClick = e => {
+  const section = document.getElementById(e.target.name);
+  jump(section, {
+    offset: -90,
+    duration: 1500,
+  });
+};
+
 const Header = () => {
   return (
     <nav id='nav-bar'>
@@ -9,15 +20,27 @@ const Header = () => {
         <h1 className='logo'>M</h1>
       </div>
       <div className='links-container'>
-        <a className='clickable-color color-hover' href='#about-me'>
+        <button
+          onClick={handleClick}
+          name='about-me'
+          className='header-btn clickable-color color-hover'
+        >
           About
-        </a>
-        <a className='clickable-color color-hover' href='#projects'>
+        </button>
+        <button
+          onClick={handleClick}
+          name='projects'
+          className='header-btn clickable-color color-hover'
+        >
           Projects
-        </a>
-        <a className='clickable-color color-hover' href='#contact'>
+        </button>
+        <button
+          onClick={handleClick}
+          name='contact'
+          className='header-btn clickable-color color-hover'
+        >
           Contact
-        </a>
+        </button>
       </div>
     </nav>
   );

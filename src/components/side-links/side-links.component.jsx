@@ -28,7 +28,7 @@ const SideLinks = () => {
           <a
             href='mailto:mcas@manuelc.me'
           >
-            <i class="far fa-envelope"></i>
+            <i className="far fa-envelope"></i>
           </a>
         </li>
         <li>

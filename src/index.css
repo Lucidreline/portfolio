@@ -14,7 +14,7 @@ body {
   font-size: 62.5%;
 }
 
-.section-title{
+.section-title {
   color: white;
   font-size: 4.5rem;
   margin-bottom: 1.3rem;
@@ -29,6 +29,9 @@ label,
 input,
 p {
   font-size: 1.5rem;
+}
+p.marg-bottom {
+  margin-bottom: 1.2rem;
 }
 h2 {
   font-size: 4.5rem;
