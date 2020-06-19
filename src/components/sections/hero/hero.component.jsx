@@ -9,8 +9,10 @@ const Hero = () => {
   return (
     <section id='hero'>
       <div className='content'>
-        <span className='intro'>Hi, my name is</span>
-        <h1 className='name'>Manuel Castaneda.</h1>
+        <div className='name-and-intro'>
+          <span className='intro'>Hi, my name is</span>
+          <h1 className='name'>Manuel Castaneda.</h1>
+        </div>
         <p className='bio'>
           I am a web developer based in{' '}
           <a

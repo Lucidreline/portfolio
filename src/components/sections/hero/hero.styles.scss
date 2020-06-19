@@ -26,3 +26,9 @@
     width: 100%;
   }
 }
+
+@media only screen and (max-height: 360px) {
+  #hero .name-and-intro {
+    height: 90vh;
+  }
+}
