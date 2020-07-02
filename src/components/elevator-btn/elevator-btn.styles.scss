@@ -1,0 +1,16 @@
+.elevator-btn {
+  text-align: center;
+  margin: 6rem;
+
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 1rem;
+
+    i {
+      font-size: 3rem;
+    }
+  }
+}

@@ -12,7 +12,7 @@
 
       li {
         margin: 0.45rem 1rem;
-        animation: shiftRight 1.5s;
+        animation: shiftRight 2s;
         animation-fill-mode: backwards;
       }
     }
@@ -27,7 +27,7 @@
     margin: 2rem auto;
 
     ul {
-      animation: shiftRight 3s;
+      animation: shiftRight 2s;
       animation-fill-mode: backwards;
       display: flex;
       justify-content: space-around;

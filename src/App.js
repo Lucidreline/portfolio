@@ -8,6 +8,7 @@ import Hero from './components/sections/hero/hero.component';
 import AboutMe from './components/sections/about-me/about-me.component';
 import Projects from './components/sections/projects/projects.component';
 import Contact from './components/sections/contact/contact.component';
+import ElevatorBtn from './components/elevator-btn/elevator-btn.component';
 
 // animations
 import AOS from 'aos';
@@ -28,8 +29,11 @@ function App() {
         <div data-aos='fade-up-right'>
           <Projects />
         </div>
-        <div data-aos='fade-up'>
+        <div data-aos='fade-up-right'>
           <Contact />
+        </div>
+        <div data-aos='flip-up'>
+          <ElevatorBtn />
         </div>
       </div>
     </div>
