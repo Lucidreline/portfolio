@@ -24,10 +24,10 @@ function App() {
           <Hero />
         </div>
         <div data-aos='fade-up-right'>
-          <AboutMe />
+          <Projects />
         </div>
         <div data-aos='fade-up-right'>
-          <Projects />
+          <AboutMe />
         </div>
         <div data-aos='fade-up-right'>
           <Contact />
