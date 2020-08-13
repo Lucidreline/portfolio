@@ -25,15 +25,13 @@ const SideLinks = () => {
           </a>
         </li>
         <li>
-          <a
-            href='mailto:mcas@manuelc.me'
-          >
-            <i className="far fa-envelope"></i>
+          <a href='mailto:mcas@manuelc.me'>
+            <i className='far fa-envelope'></i>
           </a>
         </li>
         <li>
           <a
-            href='https://nc.manuelc.me/index.php/s/PJNNcRw56j6XBfw'
+            href='https://nc.manuelc.me/index.php/s/KZzo9E73823wReX'
             target='_blank'
             rel='noopener noreferrer'
           >

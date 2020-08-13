@@ -37,6 +37,16 @@ const AboutMe = () => {
                 className='clickable-color color-always'
                 target='_blank'
                 rel='noopener noreferrer'
+                href='https://www.typescriptlang.org/'
+              >
+                TypeScript
+              </a>
+            </li>
+            <li>
+              <a
+                className='clickable-color color-always'
+                target='_blank'
+                rel='noopener noreferrer'
                 href='https://reactjs.org/'
               >
                 React
@@ -70,16 +80,6 @@ const AboutMe = () => {
                 href='https://www.mongodb.com/'
               >
                 MongoDB
-              </a>
-            </li>
-            <li>
-              <a
-                className='clickable-color color-always'
-                target='_blank'
-                rel='noopener noreferrer'
-                href='https://firebase.google.com/'
-              >
-                Firebase
               </a>
             </li>
             <li>

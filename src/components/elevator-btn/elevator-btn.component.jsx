@@ -24,8 +24,8 @@ const ElevatorBtn = () => {
           <i className='fas fa-sort-up'></i>
         </div>
         <div>
-          <p>Scroll Up</p>
-          <p>(the fun way)</p>
+          <p>Click To Scroll Up</p>
+          <p>(THE FUN WAY!)</p>
         </div>
       </button>
     </div>
