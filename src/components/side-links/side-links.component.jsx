@@ -26,7 +26,7 @@ const SideLinks = () => {
         </li>
         <li>
           <a href='mailto:mcas@manuelc.me'>
-            <i className='far fa-envelope'></i>
+            <i className='far fa-envelope  clickable-color color-hover'></i>
           </a>
         </li>
         <li>
