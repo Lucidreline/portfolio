@@ -31,7 +31,7 @@ const SideLinks = () => {
         </li>
         <li>
           <a
-            href='https://nc.manuelc.me/index.php/s/KZzo9E73823wReX'
+            href='https://drive.google.com/file/d/1mHZ8XSB8eyrHZQqqcOVfHyu0K72xHlEo/view?usp=sharing'
             target='_blank'
             rel='noopener noreferrer'
           >

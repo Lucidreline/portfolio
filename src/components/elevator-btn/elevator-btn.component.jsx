@@ -26,6 +26,7 @@ const ElevatorBtn = () => {
         <div>
           <p>Click To Scroll Up</p>
           <p>(THE FUN WAY!)</p>
+          <i className="fas fa-volume-up volume-icon"></i>
         </div>
       </button>
     </div>
