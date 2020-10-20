@@ -57,9 +57,9 @@ const AboutMe = () => {
                 className='clickable-color color-always'
                 target='_blank'
                 rel='noopener noreferrer'
-                href='https://nodejs.org/en/about/'
+                href='https://sass-lang.com/'
               >
-                Node.js
+                Sass
               </a>
             </li>
             <li>
