@@ -1,23 +1,23 @@
 #about-me {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 
-  p {
-    width: 60%;
-  }
+	p {
+		width: 95%;
+	}
 
-  ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 30rem;
-    li {
-      margin-bottom: 0.75rem;
-    }
-  }
+	ul {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		max-width: 30rem;
+		li {
+			margin-bottom: 0.75rem;
+		}
+	}
 }
 
 @media only screen and (max-width: 830px) {
-  #about-me p {
-    width: 100%;
-  }
+	#about-me p {
+		width: 100%;
+	}
 }
