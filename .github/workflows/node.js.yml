@@ -14,16 +14,12 @@ jobs:
 
     runs-on: self-hosted
 
-    strategy:
-      matrix:
-        node-version: [14.x]
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
+    - name: Install Dependencies
     - run: npm i
+       
+    - name: Build App
     - run: npm run build --if-present
-    - run: npm run start
+      
+    - name: Restart App
+    - run: pm2 restart portfolio
