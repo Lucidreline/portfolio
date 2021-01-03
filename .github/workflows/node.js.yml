@@ -11,15 +11,14 @@ on:
 
 jobs:
   build:
-
     runs-on: self-hosted
 
     steps:
-    - name: Install Dependencies
-    - run: npm i
+      - name: Install Dependencies
+        run: npm i
        
-    - name: Build App
-    - run: npm run build --if-present
+      - name: Build App
+        run: npm run build --if-present
       
-    - name: Restart App
-    - run: pm2 restart portfolio
+      - name: Restart App
+        run: pm2 restart portfolio
