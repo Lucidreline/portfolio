@@ -14,6 +14,9 @@ jobs:
     runs-on: self-hosted
 
     steps:
+      - name: Update Repo
+        run: git pull origin master
+      
       - name: Install Dependencies
         run: npm i
        
