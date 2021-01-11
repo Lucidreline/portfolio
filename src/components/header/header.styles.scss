@@ -1,41 +1,41 @@
 #nav-bar {
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 2rem;
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 2rem;
 
-  .logo-container {
-    width: 10%;
+	.logo-container {
+		width: 10%;
 
-    .logo {
-      font-weight: normal;
-      font-family: 'Black Ops One', cursive;
-      font-size: 3rem;
+		.logo {
+			font-weight: normal;
+			font-family: 'Black Ops One', cursive;
+			font-size: 3rem;
 
-      &:hover {
-        scale: 1.025;
-      }
-    }
-  }
+			&:hover {
+				scale: 1.025;
+			}
+		}
+	}
 
-  .links-container {
-    width: 90%;
-    display: flex;
-    justify-content: flex-end;
-    text-align: right;
+	.links-container {
+		width: 90%;
+		display: flex;
+		justify-content: flex-end;
+		text-align: right;
 
-    .header-btn {
-      color: #e1f5fe;
-      background: none;
-      border: none;
-      margin-left: 3rem;
-      font-size: 1.3rem;
+		.header-btn {
+			color: #ffefef;
+			background: none;
+			border: none;
+			margin-left: 3rem;
+			font-size: 1.3rem;
 
-      &:hover {
-        scale: 1.025;
-      }
-    }
-  }
+			&:hover {
+				scale: 1.025;
+			}
+		}
+	}
 }

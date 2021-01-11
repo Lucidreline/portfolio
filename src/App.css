@@ -1,57 +1,57 @@
 #margin-container {
-  width: 75%;
-  margin: auto;
+	width: 75%;
+	margin: auto;
 }
 
 .clickable-color {
-  transition-duration: 0.3s;
+	transition-duration: 0.3s;
 }
 .clickable-color.color-always {
-  color: #00e5ff;
+	color: #f03939;
 }
 .clickable-color.color-hover:hover {
-  color: #00e5ff !important;
+	color: #f03939 !important;
 }
 
 .clickable-color.color-hover-shadow:hover {
-  box-shadow: #00e5ff 5px 5px;
+	box-shadow: #f03939 5px 5px;
 }
 
 #about-me,
 #projects {
-  margin-bottom: 12.5rem;
+	margin-bottom: 12.5rem;
 }
 
 #contact {
-  margin-bottom: 5rem;
+	margin-bottom: 5rem;
 }
 
 @media only screen and (max-height: 360px) {
-  #nav-bar {
-    margin-top: 1rem;
-  }
+	#nav-bar {
+		margin-top: 1rem;
+	}
 }
 
 @media only screen and (max-height: 330px) {
-  #contact {
-    margin-bottom: 1.5rem;
-  }
+	#contact {
+		margin-bottom: 1.5rem;
+	}
 }
 
 @media only screen and (max-width: 500px) {
-  html {
-    font-size: 13px;
-  }
+	html {
+		font-size: 13px;
+	}
 }
 
 @media only screen and (max-width: 475px) {
-  html {
-    font-size: 12px;
-  }
+	html {
+		font-size: 12px;
+	}
 }
 
 @media only screen and (max-width: 400px) {
-  html {
-    font-size: 9px;
-  }
+	html {
+		font-size: 9px;
+	}
 }
