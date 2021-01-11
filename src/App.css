@@ -7,14 +7,14 @@
 	transition-duration: 0.3s;
 }
 .clickable-color.color-always {
-	color: #f03939;
+	color: #ec4949;
 }
 .clickable-color.color-hover:hover {
-	color: #f03939 !important;
+	color: #ec4949 !important;
 }
 
 .clickable-color.color-hover-shadow:hover {
-	box-shadow: #f03939 5px 5px;
+	box-shadow: #ec4949 5px 5px;
 }
 
 #about-me,
@@ -24,6 +24,24 @@
 
 #contact {
 	margin-bottom: 5rem;
+}
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: rgb(8, 8, 8);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #ec4949;
+	border-radius: 4px;
+	transition: 0.3s ease;
 }
 
 @media only screen and (max-height: 360px) {
