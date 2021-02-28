@@ -1,36 +1,35 @@
 @import '../../../vars.scss';
 
 #hero {
-	min-height: 80vh;
-	display: flex;
-	justify-content: right;
-	align-items: center;
-	margin-bottom: 10vh;
+  min-height: 80vh;
+  display: flex;
+  justify-content: right;
+  align-items: center;
 
-	.content {
-		width: 100%;
-		.name {
-			text-transform: uppercase;
-			font-size: 5rem;
-			margin-bottom: 1rem;
-			color: $clickableColor;
-			text-shadow: black -2px 3px 2px;
-		}
-		.title {
-			margin-bottom: 0.5rem;
-			width: 60%;
-		}
-		.location {
-			width: 60%;
-			.location-name {
-				color: $normalTextColor;
-			}
-		}
-	}
+  .content {
+    width: 100%;
+    .name {
+      text-transform: uppercase;
+      font-size: 5rem;
+      margin-bottom: 1rem;
+      color: $clickableColor;
+      text-shadow: black -2px 3px 2px;
+    }
+    .title {
+      margin-bottom: 0.5rem;
+      width: 60%;
+    }
+    .location {
+      width: 60%;
+      .location-name {
+        color: $normalTextColor;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 400px) {
-	#hero .content .name {
-		font-size: 4rem;
-	}
+  #hero .content .name {
+    font-size: 4rem;
+  }
 }

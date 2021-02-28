@@ -1,42 +1,43 @@
 @import '../../vars.scss';
 
 #nav-bar {
-	height: 10vh;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin-bottom: 2rem;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
 
-	.logo-container {
-		width: 10%;
+  .logo-container {
+    width: 10%;
 
-		.logo {
-			font-weight: normal;
-			font-family: 'Black Ops One', cursive;
-			font-size: 3rem;
-			color: $normalTextColor;
-			cursor: pointer;
-		}
-	}
+    .logo {
+      font-weight: normal;
+      font-family: 'Black Ops One', cursive;
+      font-size: 3rem;
+      color: $normalTextColor;
+      cursor: pointer;
+    }
+  }
 
-	.links-container {
-		width: 90%;
-		display: flex;
-		justify-content: flex-end;
-		text-align: right;
+  .links-container {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
 
-		.header-btn {
-			color: $normalTextColor;
-			background: none;
-			border: none;
-			margin-left: 3rem;
-			font-size: 1.3rem;
-			cursor: pointer;
+    .header-btn {
+      color: $normalTextColor;
+      background: none;
+      border: none;
+      margin-left: 1rem;
+      font-size: 1.3rem;
+      padding: 0.25rem 1rem;
+      cursor: pointer;
 
-			&:hover {
-				transform: scale(1.05);
-			}
-		}
-	}
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
 }
