@@ -13,6 +13,7 @@ import Contact from './components/sections/contact/contact.component'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { Switch, Route } from 'react-router-dom'
+import PageNotFound from './components/sections/page-not-found/page-not-found.component'
 AOS.init()
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/projects" component={Projects}/>
           <Route exact path="/about" component={AboutMe}/>
           <Route exact path="/contact" component={Contact}/>
+          <Route path="/" component={PageNotFound} />
         </Switch>
         </div>
         
