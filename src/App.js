@@ -22,12 +22,12 @@ function App() {
       <div data-aos="fade-right">
         <Header />
       </div>
-        <div data-aos="fade-up-right">
+        <div data-aos="fade-up">
         <Switch>
-          <Route exact to="/" component={Hero}/>
-          <Route to="/" component={Projects}/>
-          <Route to="/" component={AboutMe}/>
-          <Route to="/" component={Contact}/>
+          <Route exact path="/" component={Hero}/>
+          <Route exact path="/projects" component={Projects}/>
+          <Route exact path="/about" component={AboutMe}/>
+          <Route exact path="/contact" component={Contact}/>
         </Switch>
         </div>
         
