@@ -3,7 +3,6 @@ import React from 'react'
 import './hero.styles.scss'
 
 // components
-import SideLinks from '../../side-links/side-links.component'
 
 const Hero = () => {
 	return (
@@ -26,8 +25,6 @@ const Hero = () => {
 						</span>
 					</a>
 				</p>
-
-				<SideLinks className='side-links' />
 			</div>
 		</section>
 	)
