@@ -1,9 +1,9 @@
 const ProjectsData = {
   projects: [
     {
-      name: 'Pre Law Society',
-      url: 'https://csudhprelawsociety.com/',
-      github: 'https://github.com/Lucidreline/pre-law-society',
+      name: 'Law Club',
+      url: 'https://law-club.manuelc.me/home',
+      github: 'https://github.com/Lucidreline/law-club',
       photo:
         'https://res.cloudinary.com/dglxjd018/image/upload/v1600465282/Portfolio/screenshots/PLS_eiswsy.png',
       technologies: 'React, SendGrid',
@@ -21,6 +21,6 @@ const ProjectsData = {
         'A website that allows you to easily calculate your grades and visually see how they change over time.',
     },
   ],
-};
+}
 
-export default ProjectsData;
+export default ProjectsData
